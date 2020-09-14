@@ -1,0 +1,401 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+/* 头部 */
+.header-top{
+    width: 100%;
+    height: 25px;
+    background: #dfdbdb;
+  
+}
+  .header-top ul{
+      width: 50%;
+      margin: 0px auto;
+      display: flex;
+}
+  .header-top li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    justify-content: space-around;
+}
+   .header-top a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+   .header-middle{
+       width: 100%;
+       height: 50px;
+       background:#ff1702;
+       margin-top: 5px;
+}
+  .header-middle-name{
+      width: auto;
+}
+   .header-middle-name h2{
+       text-align: center;
+       color: white;
+       padding-top:8px;
+
+}
+   .header-bottom{
+       margin-top: 5px;
+       margin: 0px auto; 
+       width: 65%;
+       height: auto;
+       display: flex;
+
+   }
+   .header-bottom-image image{
+       width: 150px;
+       height: 150px;
+       background-size:cover;
+       flex-grow: 1;
+   }
+   .input{
+      flex-grow: 1;
+      width: auto;
+      margin: 60px auto;
+   }
+   .input input{
+    
+       width: 80%;
+       height: 48px;
+       border: 1px solid red ;
+       outline:none;
+      
+   }
+   .input button{
+      border: 1px solid red ;
+      width: 48px;
+      height: 49px;
+      margin-left: -50px;
+      background: red;
+      color: rgb(248, 237, 237);
+      outline-style: none;
+   }
+   /* 容器头部 */
+    .container-toubu{
+        width: 100%;
+        height: 25px;
+        background: #ff1702;
+    }
+    .container-toubu-name{
+       
+        width: 50%;
+        height: 25px;
+        margin: 0px auto;
+    }
+    .container-toubu-name ul{
+        
+        width: 100%;
+        height: 25px;
+        display: flex;
+        
+       
+       
+    }
+    .container-toubu-name li{
+       
+        display: inline;
+        margin: auto;
+        justify-content: space-around;
+       
+    }
+    .container-toubu-name li a{
+        text-decoration: none;
+        color: rgb(248, 237, 237);
+    }
+    /* 内容 */
+    .container{
+        width: 100%;
+        height:auto;
+        background: #f0ecec;
+       
+     }
+     /* 内容头部 */
+   .container-top{
+       width: 65%;
+       height: 500px;
+       margin: 0px auto;
+       background: rgb(255, 255, 255);
+       display: flex;
+
+   }
+   .container-top-left{
+       width: 17.5%;
+       height: 500px;
+       border: 1px solid red;
+       border-radius: 5px;
+   }
+   .container-top-left ul{
+       width: 100%;
+       height: 100%;
+       background: rgb(231, 123, 123);
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+
+   }
+   .container-top-left ul li{
+       background: rgb(240, 9, 9);
+       width: 48%;
+       list-style: none;
+   }
+  .container-top-left ul li a{
+      display: block;
+      width: 80%;
+      height: 50%;
+      text-decoration: none;
+      text-align: center;
+      color:white;
+      font-size: 15px;
+      margin:15px auto;
+
+}
+   .container-top-middle{
+       width: 65%;
+       display: flex;
+
+   }
+   .i05{
+       width: 50%;
+       height: 500px;
+   }
+
+   .i01{
+       width: 50%;
+       height: 500px;
+   }
+   .container-top-right{
+       width: 17.5%;
+       height: 500px;
+   }
+   .zhanghao{
+       width: 95%;
+       height: 240px;
+       margin:5px auto ;
+       display: flex;
+       flex-wrap: wrap;
+       border: 1px solid rgb(246, 230, 230);
+       border-radius: 10px;
+
+   }
+   .zhanghao-img{
+      width:80px ;
+      height:80px;
+      border-radius: 50px;
+      margin: 30px auto ;
+     
+   }
+   .zhanghao-name{
+       font-size: 15;
+       text-align: center;
+       width: 100%;
+       height: 30px;
+     
+   }
+   .zhanghao ul{
+       width: 95%;
+       height: 50px;
+       margin: 0px auto;
+       display: flex;
+    
+}
+   .zhanghao ul li{
+       display: inline-block;
+       width: 20%;
+       margin: auto;
+       justify-content: space-around;
+       border-radius: 5px;
+       border: 1px solid rgb(246, 230, 230);
+   
+    
+}
+   .zhanghao ul li a{
+       text-decoration: none;
+       font-size: 10px;
+      
+     
+
+
+}
+   .chongzhi{
+       width: 95%;
+       height: 240px;
+       margin:0px auto;
+       border: 1px solid rgb(246, 230, 230);
+       border-radius: 10px;
+   }
+   .chongzhi h3{
+       text-align: center;
+       margin-top: 50px;
+   }
+   .chongzhi ul{ 
+       margin-top: 15px;
+   }
+   .chongzhi li{
+       display: inline-block;
+   }
+   .chongzhi li input{
+       width: 80%;
+       outline: none;
+   }
+   .chongzhi label{
+       width: 20%;
+       font-size: 14px;
+   }
+   .chongzhi-anniu{
+       width:75%;
+       margin:30px auto;
+
+   }
+   .chongzhi button{
+       width: 100%;
+   }
+   /* 内容中部 */
+   .container-middle{
+      width: 65%;
+      margin: 50px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: flex-start;
+      border: 1px  rgb(230, 231, 246) solid ;
+      background: rgb(255, 255, 255);
+  
+
+   }
+   .shangping{
+       background: rgb(251, 250, 250);
+       width: 24%;
+       height: 230px;
+       border: 1px  rgb(228, 220, 220) solid ;
+       margin-top: 3px;
+
+  }
+ 
+   .shangping-img{
+       width: 100%;
+       height:70%;
+       margin: auto;
+       background-image: url('../image/image07.jpg');
+       background-size: cover;
+      
+   }
+   .shangping-img img{
+       width: 100%;
+       height: 100%;
+       margin-top: 2px;
+       background-size: cover;
+   }
+   .shangpingjieshao{
+       margin: 5px auto;
+       width: 95%;
+       text-align: center;
+       font-size: 15px;
+   }
+   .shoujia{
+       color: red;
+       width: 18%;
+       margin: 5px auto;
+       font-size: 13px;
+   }
+   .dibu{
+       background: rgb(117, 109, 109);
+       margin-top: 100px;
+       width: 100%;
+       height: 300px;
+       display: flex;
+       justify-content:space-between;
+   }
+   .zuo{
+      
+       width: 15%;
+       height: 150px;
+       display: flex;
+       flex-wrap: wrap;
+       margin: auto;
+   }
+   .zuo h3{
+       width: 100%;
+       height: 25px;
+   }
+   .zuo ul{
+    
+       display: block;
+       width: 100%;
+       margin: 15px auto;
+   }
+   .zuo ul li{
+     
+       list-style: none;
+       width: 100px;
+       margin-left: 0px;
+     
+   }
+   .zhong{
+   
+   
+    width: 15%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   }
+.zhong h3{
+  
+    width: 100%;
+}
+.zhong ul{
+
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+}
+.zhong ul li{
+ 
+    list-style: none;
+    width: 100px;
+    margin-left: 0px;
+  
+}
+    
+   .you{
+ 
+    width: 15%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   }
+.you h3{
+  
+    width: 100%;
+    
+}
+.you ul{
+   
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+}
+.you ul li{
+   
+    list-style: none;
+    width: 100px;
+    margin-left: 0px;
+}
+.dibu a{
+    text-decoration: none;
+    color: black;
+}
+ 
